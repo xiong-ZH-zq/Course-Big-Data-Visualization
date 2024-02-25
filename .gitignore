@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 # Img Files
-*.png
-*.jpg
+Week 1/results/*.png
+Week 1/results/*.jpg

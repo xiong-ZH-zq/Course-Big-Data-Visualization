@@ -57,7 +57,7 @@ mpl.rcParams['font.sans-serif'] = (
     'Helveitca', 'Bitstream Vera Sans', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Avant Garde',
     'sans-serif')
 mpl.rcParams['font.monospace'] = (
-    'Decima Mono', 'Bitstream Vera Sans Mono', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed',
+    'Decima Mono', 'Roboto Mono','LXGW WenKai Mono','Bitstream Vera Sans Mono', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed',
     'Terminal', 'monospace')
 mpl.rcParams['text.color'] = '#222222'
 mpl.rcParams['pdf.fonttype'] = 42
@@ -515,4 +515,3 @@ if __name__ == '__main__':
             print ("************* One of those shapes isn't correct:")
             print("shape_start must be one of ", initial_datasets)
             print("shape_end must be one of ", all_targets)
-
