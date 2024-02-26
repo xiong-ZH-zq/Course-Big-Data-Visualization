@@ -297,7 +297,7 @@ def get_points_for_shape(line_shape):
 #
 def perturb(df, initial, target='circle',
             line_error = 1.5,
-            shake=0.1,
+            shake=0.3,  # 最大移动量
             allowed_dist = 2,
             temp = 0,
             x_bounds=[0, 100], y_bounds=[0, 100],
