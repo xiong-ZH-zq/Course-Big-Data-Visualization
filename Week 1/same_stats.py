@@ -80,8 +80,8 @@ def load_dataset(name="dino"):
         df = pd.read_csv("seed_datasets/mydata.csv")
         df = df[['x', 'y']]
     elif name == "slant":
-    	df = pd.read_csv("seed_datasets/slanted_less.csv")
-    	df = df[['x', 'y']]
+        df = pd.read_csv("seed_datasets/slanted_less.csv")
+        df = df[['x', 'y']]
     elif name == "big_slant":
         df = pd.read_csv("seed_datasets/less_angled_blob.csv")
         df = df[['x', 'y']]
